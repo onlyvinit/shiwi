@@ -20,11 +20,11 @@ body.no-scroll {
 }
 
 nav {
-    position: fixed;
+    /* position: fixed;
     top: 0;
-    left: 0;
+    left: 0; */
     width: 100%;
-    padding: 1.5vh;
+    padding: 2vh;
     z-index: 999;
     display: flex;
     align-items: center;
@@ -32,6 +32,7 @@ nav {
     background-color: rgba(255, 255, 255, 0.95);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
+
 
 nav a {
     text-decoration: none;
